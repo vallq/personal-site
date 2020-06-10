@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #282c34;
+  color: #fefefe;
+  text-decoration: none;
+  width: 100%;
+  height: 1.5em;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  font-size:  calc(12px + 2vmin);
+}
+
+a {
+  margin: 0.5em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:active {
+  background-color: #ffa500;
+}
+
+a + a {
+  justify-content: space-between;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
