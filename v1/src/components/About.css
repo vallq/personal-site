@@ -4,10 +4,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(7px + 2vmin);
-  color: #282c34;
-  padding: 3em;
+  font-family: "Lato", sans-serif;
+  color: #daefff;
+  height: 72vh;
 }
 .activity-list {
-  list-style: circle;
-  text-align: left; 
+  list-style: none;
+  text-align: left;
 }
