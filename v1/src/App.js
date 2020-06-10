@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
           </button>
         </header>
         <div className="intro" id="intro">
-        <NavBar />
+          <NavBar />
           <Switch>
             <Route exact path="/" component={About} />
             {/* <Route exact path="/about" component={About} />
@@ -23,8 +24,8 @@ function App() {
           <Route path="/not-found" component={NotFound} />
           <Redirect to="/not-found" /> */}
           </Switch>
+          <Footer />
         </div>
-        <div className="project-header">Here are some of my projects</div>
       </div>
     </BrowserRouter>
   );
