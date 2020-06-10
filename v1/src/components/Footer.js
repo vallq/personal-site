@@ -1,14 +1,33 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
+    <footer>
       <ul className="social-links">
-        <li>linkedin</li>
-        <li>instagram</li>
-        <li>github</li>
+        <a
+          href="https://linkedin.com/in/vallq"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          linkedin
+        </a>
+        <a
+          href="https://github.com/vallq"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          github
+        </a>
+        <a
+          href="https://codepen.io/alexea"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          codepen
+        </a>
       </ul>
-    </div>
+    </footer>
   );
 };
 
