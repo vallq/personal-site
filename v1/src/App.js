@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import "./App.css";
 
@@ -19,10 +20,9 @@ function App() {
           <NavBar />
           <Switch>
             <Route exact path="/" component={About} />
-            {/* <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Projects}/>
-          <Route path="/not-found" component={NotFound} />
-          <Redirect to="/not-found" /> */}
+            <Route exact path="/projects" component={Projects} />
+            {/* <Route path="/not-found" component={NotFound} />
+            <Redirect to="/not-found" /> */}
           </Switch>
           <Footer />
         </div>

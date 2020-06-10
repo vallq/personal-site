@@ -6,18 +6,19 @@ html {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(#0e2656, #233a67);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Encode Sans Semi Expanded", sans-serif;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .intro {
-  background-color: #fefefe;
+  background-image: linear-gradient(#233a67, #0e2656);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,14 +26,9 @@ html {
   color: #282c34;
 }
 
-
-.project-header {
-  background-color: #fefefe;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #282c34;
+button {
+  border: 1px solid #daefff;
+  color: #daefff;
+  background-color: #0e2656;
+  border-radius: 1em;
 }
