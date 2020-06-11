@@ -3,6 +3,7 @@ import "./Footer.css";
 import linkedin from "../assets/social icons_in.png";
 import github from "../assets/social icons_github.png";
 import codepen from "../assets/social icons_codepen.png";
+import mail from "../assets/social icons_mail.png";
 
 const Footer = () => {
   return (
@@ -31,6 +32,14 @@ const Footer = () => {
           id="codepen"
         >
           <img src={codepen} alt="codepen" />
+        </a>
+        <a
+          href="mailto:vallq@outlook.com"
+          rel="noopener noreferrer"
+          target="_blank"
+          id="mail"
+        >
+          <img src={mail} alt="mail" />
         </a>
       </div>
       <span id="footer">Copyright © 2020 Valerie Lui Qi</span>
