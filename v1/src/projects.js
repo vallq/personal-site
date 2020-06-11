@@ -8,7 +8,7 @@ const projects = [
   {
     name: "snaphunt cms",
     description:
-      "A content editor system that allows users to create articles populated with text and rich media. This team project was built during the JumpStart course for Snaphunt, a local predictive recruitment analytics company.",
+      "A content editor system that allows users to create articles populated with text and rich media. This team project was built for a local predictive recruitment analytics company.",
     link: "https://github.com/vallq/editor",
   },
 ];
