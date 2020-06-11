@@ -10,11 +10,11 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <div id="title">valerie lui</div>
         <header className="App-header">
-          <p>Hello,</p>
-          <button>
-            <a href="#intro">click me!</a>
-          </button>
+          <a href="#intro" id="scroll-button">
+            hello,
+          </a>
         </header>
         <div className="intro" id="intro">
           <NavBar />
