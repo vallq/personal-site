@@ -1,32 +1,39 @@
 import React from "react";
 import "./Footer.css";
+import linkedin from "../assets/social icons_in.png";
+import github from "../assets/social icons_github.png";
+import codepen from "../assets/social icons_codepen.png";
 
 const Footer = () => {
   return (
     <footer>
-      <ul className="social-links">
+      <div className="social-links">
         <a
           href="https://linkedin.com/in/vallq"
           rel="noopener noreferrer"
           target="_blank"
+          id="linkedin"
         >
-          linkedin
+          <img src={linkedin} alt="linkedin" />
         </a>
         <a
           href="https://github.com/vallq"
           rel="noopener noreferrer"
           target="_blank"
+          id="github"
         >
-          github
+          <img src={github} alt="github" />
         </a>
         <a
           href="https://codepen.io/alexea"
           rel="noopener noreferrer"
           target="_blank"
+          id="codepen"
         >
-          codepen
+          <img src={codepen} alt="codepen" />
         </a>
-      </ul>
+      </div>
+      <span id="footer">Copyright © 2020 Valerie Lui Qi</span>
     </footer>
   );
 };

@@ -1,13 +1,14 @@
 footer {
   height: 10vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 .social-links {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: auto;
 }
 
 a {
@@ -15,4 +16,12 @@ a {
   margin: 0.5em;
   text-decoration: none;
   font-family: "Encode Sans Semi Expanded", sans-serif;
+}
+
+img {
+  width: 1.5em;
+}
+
+#footer {
+  color: #A9D5E0;
 }
