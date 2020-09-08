@@ -1,0 +1,33 @@
+.milestones {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 2em 0em 2em 0em;
+  width: 90%;
+}
+.milestone {
+  display: flex;
+  justify-content: left;
+  border-radius: 2em;
+  width: 100%;
+  margin: 0.5em;
+  padding: 0.1em;
+  font-family: "Lato", sans-serif;
+  font-size: calc(2px + 2vmin);
+  color: #daefff;
+}
+
+#date {
+  width: 15%;
+  text-align: left;
+}
+
+#name {
+  text-align: left;
+  width: 30%;
+}
+
+#description {
+  text-align: justify;
+  width: 55%;
+}
